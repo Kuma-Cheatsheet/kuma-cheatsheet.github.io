@@ -17,6 +17,6 @@ git init
 git add -A
 git commit -m 'Website AutoDeploy'
 
-git push -f git@github.com:Kuma-Cheatsheet/core.git master:gh-pages
+git push -f git@github.com:Kuma-Cheatsheet/kuma-cheatsheet.github.io.git master
 
 cd -

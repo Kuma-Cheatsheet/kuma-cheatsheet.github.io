@@ -1,9 +1,9 @@
 module.exports = {
     // Global Variables + Edits
     // Make sure that base + repo are in correct cheatsheet
-    base: '/core/',
+    base: '/',
 
-    repo: 'Kuma-Cheatsheet/core',
+    repo: 'Kuma-Cheatsheet/kuma-cheatsheet.github.io',
     repoLabel: 'Repository',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
@@ -122,7 +122,21 @@ module.exports = {
 
                 sidebar: [
                     // Official : https://vuepress.vuejs.org/theme/default-theme-config.html#sidebar
-
+                    {
+                        title: 'Introduction',
+                        collapsable: false,
+                        children: [
+                            'Guidelines/',
+                        ]
+                    },
+                    {
+                        title: 'Issue Template',
+                        collapsable: false,
+                        children: [
+                            'GitHub/ISSUE_TEMPLATE/bug-report.md',
+                            'GitHub/ISSUE_TEMPLATE/feature-request.md',
+                        ]
+                    },
                 ],
             },
 
