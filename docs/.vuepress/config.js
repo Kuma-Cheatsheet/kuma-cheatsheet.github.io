@@ -133,8 +133,8 @@ module.exports = {
                         title: 'Issue Template',
                         collapsable: false,
                         children: [
-                            'GitHub/ISSUE_TEMPLATE/bug-report.md',
-                            'GitHub/ISSUE_TEMPLATE/feature-request.md',
+                            'Github/ISSUE_TEMPLATE/bug-report.md',
+                            'Github/ISSUE_TEMPLATE/feature-request.md',
                         ]
                     },
                 ],
